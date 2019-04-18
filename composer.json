@@ -1,0 +1,31 @@
+{
+    "name": "xcrm/configurations",
+    "description": "X-CRM configuration manager",
+    "type": "library",
+    "require": {
+        "xcrm/yii2-extensions-pack": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Volkov",
+            "email": "webwizardry@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "wwsoft\\config\\": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
